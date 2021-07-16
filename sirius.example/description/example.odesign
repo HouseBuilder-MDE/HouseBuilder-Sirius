@@ -4,6 +4,29 @@
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="siriushb2" domainClass="hb::House" enablePopupBars="true">
       <metamodel href="../../sirius.hb/model/hb.ecore#/"/>
       <defaultLayer name="Default">
+        <nodeMappings name="Entrance" domainClass="hb::Entrance">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_yellow']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="passage - room" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']" targetFinderExpression="feature:spaceB" sourceFinderExpression="feature:spaceA" domainClass="hb::Passage" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="entrance - room" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@nodeMappings[name='Entrance']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']" targetFinderExpression="feature:space">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
         <containerMappings name="floor" domainClass="hb::Floor">
           <subNodeMappings name="externalSpace" semanticCandidatesExpression="feature:eAllContents" domainClass="hb::ExternalSpace">
             <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
@@ -42,6 +65,13 @@
               <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="hb::ExternalSpace" referenceName="spaces" variableName="externalSpaceInstance">
                 <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="Nuovo spazio esterno"/>
               </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="CreateFloor" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="hb::Floor" referenceName="floors"/>
             </initialOperation>
           </ownedTools>
         </toolSections>
