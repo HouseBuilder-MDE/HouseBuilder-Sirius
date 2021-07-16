@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:hb="http://www.example.org/hb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.example.org/hb /sirius.hb/model/hb.ecore http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_J_LLkOYfEeuQw7snH5HgVg" selectedViews="_KiUU4OYfEeuQw7snH5HgVg _8E_6QOYfEeuQw7snH5HgVg _nKTOsOYvEeuQw7snH5HgVg" version="14.5.0.202104161500">
+    <semanticResources>hb.ecore</semanticResources>
+    <semanticResources>hbinstance.xmi</semanticResources>
+    <semanticResources>hbinstance2.xmi</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_KiUU4OYfEeuQw7snH5HgVg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_8E_6QOYfEeuQw7snH5HgVg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_pZDhEuY2EeuQw7snH5HgVg" name="new siriushb2" repPath="#_pZDhEOY2EeuQw7snH5HgVg" changeId="957a4e45-05fc-45da-bdbe-9023e902fff0">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']"/>
+        <target xmi:type="hb:House" href="hbinstance.xmi#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_nKTOsOYvEeuQw7snH5HgVg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/sirius.example2/description/example2.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_pZDhEOY2EeuQw7snH5HgVg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_pZEIIOY2EeuQw7snH5HgVg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_pZEIIeY2EeuQw7snH5HgVg" type="Sirius" element="_pZDhEOY2EeuQw7snH5HgVg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_pZGkYOY2EeuQw7snH5HgVg" type="2002" element="_pZEII-Y2EeuQw7snH5HgVg">
+          <children xmi:type="notation:Node" xmi:id="_pZHLcOY2EeuQw7snH5HgVg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_pZHLceY2EeuQw7snH5HgVg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_pZHLe-Y2EeuQw7snH5HgVg" type="3007" element="_pZEvNOY2EeuQw7snH5HgVg">
+              <children xmi:type="notation:Node" xmi:id="_pZHLfuY2EeuQw7snH5HgVg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_pZHLf-Y2EeuQw7snH5HgVg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_pZIZpuY2EeuQw7snH5HgVg" type="3003" element="_pZEvNeY2EeuQw7snH5HgVg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_pZIZp-Y2EeuQw7snH5HgVg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZIZqOY2EeuQw7snH5HgVg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_pZHLfOY2EeuQw7snH5HgVg" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZHLfeY2EeuQw7snH5HgVg" x="55" y="59" width="166" height="191"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_pZHLgOY2EeuQw7snH5HgVg" type="3007" element="_pZEvN-Y2EeuQw7snH5HgVg">
+              <children xmi:type="notation:Node" xmi:id="_pZHLg-Y2EeuQw7snH5HgVg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_pZHLhOY2EeuQw7snH5HgVg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_pZJAoOY2EeuQw7snH5HgVg" type="3003" element="_pZEvOOY2EeuQw7snH5HgVg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_pZJAoeY2EeuQw7snH5HgVg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZJAouY2EeuQw7snH5HgVg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_pZHLgeY2EeuQw7snH5HgVg" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZHLguY2EeuQw7snH5HgVg" x="280" y="489" width="106" height="66"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_pZHLheY2EeuQw7snH5HgVg" type="3007" element="_pZEvOuY2EeuQw7snH5HgVg">
+              <children xmi:type="notation:Node" xmi:id="_pZHygOY2EeuQw7snH5HgVg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_pZHygeY2EeuQw7snH5HgVg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_pZJAo-Y2EeuQw7snH5HgVg" type="3003" element="_pZEvO-Y2EeuQw7snH5HgVg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_pZJApOY2EeuQw7snH5HgVg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZJApeY2EeuQw7snH5HgVg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_pZHLhuY2EeuQw7snH5HgVg" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZHLh-Y2EeuQw7snH5HgVg" x="490" y="249" width="46" height="151"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_pZHyguY2EeuQw7snH5HgVg" type="3007" element="_pZFWQOY2EeuQw7snH5HgVg">
+              <children xmi:type="notation:Node" xmi:id="_pZHyheY2EeuQw7snH5HgVg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_pZHyhuY2EeuQw7snH5HgVg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_pZJApuY2EeuQw7snH5HgVg" type="3003" element="_pZFWQeY2EeuQw7snH5HgVg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_pZJAp-Y2EeuQw7snH5HgVg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZJAqOY2EeuQw7snH5HgVg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_pZHyg-Y2EeuQw7snH5HgVg" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZHyhOY2EeuQw7snH5HgVg" x="220" y="119" width="166" height="131"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_pZHyh-Y2EeuQw7snH5HgVg" type="3007" element="_pZFWQ-Y2EeuQw7snH5HgVg">
+              <children xmi:type="notation:Node" xmi:id="_pZHyiuY2EeuQw7snH5HgVg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_pZHyi-Y2EeuQw7snH5HgVg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_pZJAqeY2EeuQw7snH5HgVg" type="3003" element="_pZFWROY2EeuQw7snH5HgVg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_pZJAquY2EeuQw7snH5HgVg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZJAq-Y2EeuQw7snH5HgVg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_pZHyiOY2EeuQw7snH5HgVg" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZHyieY2EeuQw7snH5HgVg" x="220" y="59" width="166" height="61"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_pZHyjOY2EeuQw7snH5HgVg" type="3007" element="_pZFWRuY2EeuQw7snH5HgVg">
+              <children xmi:type="notation:Node" xmi:id="_pZHyj-Y2EeuQw7snH5HgVg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_pZHykOY2EeuQw7snH5HgVg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_pZJArOY2EeuQw7snH5HgVg" type="3003" element="_pZFWR-Y2EeuQw7snH5HgVg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_pZJAreY2EeuQw7snH5HgVg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZJAruY2EeuQw7snH5HgVg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_pZHyjeY2EeuQw7snH5HgVg" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZHyjuY2EeuQw7snH5HgVg" x="340" y="249" width="46" height="151"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_pZHykeY2EeuQw7snH5HgVg" type="3007" element="_pZFWSeY2EeuQw7snH5HgVg">
+              <children xmi:type="notation:Node" xmi:id="_pZHylOY2EeuQw7snH5HgVg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_pZHyleY2EeuQw7snH5HgVg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_pZJAr-Y2EeuQw7snH5HgVg" type="3003" element="_pZFWSuY2EeuQw7snH5HgVg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_pZJAsOY2EeuQw7snH5HgVg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZJAseY2EeuQw7snH5HgVg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_pZHykuY2EeuQw7snH5HgVg" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZHyk-Y2EeuQw7snH5HgVg" x="385" y="249" width="106" height="69"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_pZHyluY2EeuQw7snH5HgVg" type="3007" element="_pZFWTOY2EeuQw7snH5HgVg">
+              <children xmi:type="notation:Node" xmi:id="_pZIZkOY2EeuQw7snH5HgVg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_pZIZkeY2EeuQw7snH5HgVg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_pZJAsuY2EeuQw7snH5HgVg" type="3003" element="_pZFWTeY2EeuQw7snH5HgVg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_pZJAs-Y2EeuQw7snH5HgVg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZJAtOY2EeuQw7snH5HgVg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_pZHyl-Y2EeuQw7snH5HgVg" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZHymOY2EeuQw7snH5HgVg" x="385" y="317" width="106" height="83"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_pZIZkuY2EeuQw7snH5HgVg" type="3007" element="_pZFWT-Y2EeuQw7snH5HgVg">
+              <children xmi:type="notation:Node" xmi:id="_pZIZleY2EeuQw7snH5HgVg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_pZIZluY2EeuQw7snH5HgVg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_pZJAteY2EeuQw7snH5HgVg" type="3003" element="_pZFWUOY2EeuQw7snH5HgVg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_pZJAtuY2EeuQw7snH5HgVg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZJAt-Y2EeuQw7snH5HgVg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_pZIZk-Y2EeuQw7snH5HgVg" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZIZlOY2EeuQw7snH5HgVg" x="280" y="399" width="136" height="91"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_pZIZl-Y2EeuQw7snH5HgVg" type="3007" element="_pZFWUuY2EeuQw7snH5HgVg">
+              <children xmi:type="notation:Node" xmi:id="_pZIZmuY2EeuQw7snH5HgVg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_pZIZm-Y2EeuQw7snH5HgVg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_pZJAuOY2EeuQw7snH5HgVg" type="3003" element="_pZFWU-Y2EeuQw7snH5HgVg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_pZJAueY2EeuQw7snH5HgVg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZJAuuY2EeuQw7snH5HgVg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_pZIZmOY2EeuQw7snH5HgVg" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZIZmeY2EeuQw7snH5HgVg" x="220" y="249" width="121" height="61"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_pZIZnOY2EeuQw7snH5HgVg" type="3007" element="_pZF9UOY2EeuQw7snH5HgVg">
+              <children xmi:type="notation:Node" xmi:id="_pZIZn-Y2EeuQw7snH5HgVg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_pZIZoOY2EeuQw7snH5HgVg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_pZJnsOY2EeuQw7snH5HgVg" type="3003" element="_pZF9UeY2EeuQw7snH5HgVg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_pZJnseY2EeuQw7snH5HgVg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZJnsuY2EeuQw7snH5HgVg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_pZIZneY2EeuQw7snH5HgVg" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZIZnuY2EeuQw7snH5HgVg" x="220" y="309" width="121" height="91"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_pZIZoeY2EeuQw7snH5HgVg" type="3007" element="_pZF9U-Y2EeuQw7snH5HgVg">
+              <children xmi:type="notation:Node" xmi:id="_pZIZpOY2EeuQw7snH5HgVg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_pZIZpeY2EeuQw7snH5HgVg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_pZJns-Y2EeuQw7snH5HgVg" type="3003" element="_pZF9VOY2EeuQw7snH5HgVg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_pZJntOY2EeuQw7snH5HgVg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZJnteY2EeuQw7snH5HgVg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_pZIZouY2EeuQw7snH5HgVg" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZIZo-Y2EeuQw7snH5HgVg" x="95" y="249" width="86" height="86"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_pZHLcuY2EeuQw7snH5HgVg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_pZHLc-Y2EeuQw7snH5HgVg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_pZGkYeY2EeuQw7snH5HgVg" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZGkYuY2EeuQw7snH5HgVg" x="140" width="593" height="593"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_pZHLdOY2EeuQw7snH5HgVg" type="2002" element="_pZEvMeY2EeuQw7snH5HgVg">
+          <children xmi:type="notation:Node" xmi:id="_pZHLd-Y2EeuQw7snH5HgVg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_pZHLeOY2EeuQw7snH5HgVg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_pZJntuY2EeuQw7snH5HgVg" type="3007" element="_pZF9VuY2EeuQw7snH5HgVg">
+              <children xmi:type="notation:Node" xmi:id="_pZJnueY2EeuQw7snH5HgVg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_pZJnuuY2EeuQw7snH5HgVg" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_pZJnu-Y2EeuQw7snH5HgVg" type="3003" element="_pZF9V-Y2EeuQw7snH5HgVg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_pZJnvOY2EeuQw7snH5HgVg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZJnveY2EeuQw7snH5HgVg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_pZJnt-Y2EeuQw7snH5HgVg" fontName="Segoe UI" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZJnuOY2EeuQw7snH5HgVg" x="35" y="79" width="91" height="86"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_pZHLeeY2EeuQw7snH5HgVg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_pZHLeuY2EeuQw7snH5HgVg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_pZHLdeY2EeuQw7snH5HgVg" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZHLduY2EeuQw7snH5HgVg" x="835" y="160" width="173" height="243"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_pZEIIuY2EeuQw7snH5HgVg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_pZF9WeY2EeuQw7snH5HgVg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_pZF9WuY2EeuQw7snH5HgVg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_pZEII-Y2EeuQw7snH5HgVg" name="Terzo piano">
+      <target xmi:type="hb:Floor" href="hbinstance.xmi#//@floors.0"/>
+      <semanticElements xmi:type="hb:Floor" href="hbinstance.xmi#//@floors.0"/>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_pZEIJOY2EeuQw7snH5HgVg" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundColor="238,201,142">
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_pZEvNOY2EeuQw7snH5HgVg" name="Balcone principale" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="hb:ExternalSpace" href="hbinstance.xmi#//@floors.0/@spaces.9"/>
+        <semanticElements xmi:type="hb:ExternalSpace" href="hbinstance.xmi#//@floors.0/@spaces.9"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_pZEvNeY2EeuQw7snH5HgVg" labelSize="12" labelPosition="node" color="194,239,255">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='externalSpace']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='externalSpace']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_pZEvN-Y2EeuQw7snH5HgVg" name="Balconcino del bagno piccolo" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="hb:ExternalSpace" href="hbinstance.xmi#//@floors.0/@spaces.10"/>
+        <semanticElements xmi:type="hb:ExternalSpace" href="hbinstance.xmi#//@floors.0/@spaces.10"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_pZEvOOY2EeuQw7snH5HgVg" labelSize="12" labelPosition="node" color="194,239,255">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='externalSpace']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='externalSpace']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_pZEvOuY2EeuQw7snH5HgVg" name="Balcone delle camerette" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="hb:ExternalSpace" href="hbinstance.xmi#//@floors.0/@spaces.11"/>
+        <semanticElements xmi:type="hb:ExternalSpace" href="hbinstance.xmi#//@floors.0/@spaces.11"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_pZEvO-Y2EeuQw7snH5HgVg" labelSize="12" labelPosition="node" color="194,239,255">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='externalSpace']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='externalSpace']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_pZFWQOY2EeuQw7snH5HgVg" name="Salotto" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.0"/>
+        <semanticElements xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_pZFWQeY2EeuQw7snH5HgVg" labelSize="12" labelPosition="node" color="255,245,181">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_pZFWQ-Y2EeuQw7snH5HgVg" name="Cucina" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.1"/>
+        <semanticElements xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_pZFWROY2EeuQw7snH5HgVg" labelSize="12" labelPosition="node" color="255,245,181">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_pZFWRuY2EeuQw7snH5HgVg" name="Corridoio" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.2"/>
+        <semanticElements xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_pZFWR-Y2EeuQw7snH5HgVg" labelSize="12" labelPosition="node" color="255,245,181">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_pZFWSeY2EeuQw7snH5HgVg" name="Cameretta piccola" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.3"/>
+        <semanticElements xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.3"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_pZFWSuY2EeuQw7snH5HgVg" labelSize="12" labelPosition="node" color="255,245,181">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_pZFWTOY2EeuQw7snH5HgVg" name="Cameretta grande" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.4"/>
+        <semanticElements xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.4"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_pZFWTeY2EeuQw7snH5HgVg" labelSize="12" labelPosition="node" color="255,245,181">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_pZFWT-Y2EeuQw7snH5HgVg" name="Bagno piccolo" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.5"/>
+        <semanticElements xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.5"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_pZFWUOY2EeuQw7snH5HgVg" labelSize="12" labelPosition="node" color="255,245,181">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_pZFWUuY2EeuQw7snH5HgVg" name="Bagno grande" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.6"/>
+        <semanticElements xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.6"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_pZFWU-Y2EeuQw7snH5HgVg" labelSize="12" labelPosition="node" color="255,245,181">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_pZF9UOY2EeuQw7snH5HgVg" name="Camera matrimoniale" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.7"/>
+        <semanticElements xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.7"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_pZF9UeY2EeuQw7snH5HgVg" labelSize="12" labelPosition="node" color="255,245,181">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_pZF9U-Y2EeuQw7snH5HgVg" name="Ripostiglio esterno" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.8"/>
+        <semanticElements xmi:type="hb:Room" href="hbinstance.xmi#//@floors.0/@spaces.8"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_pZF9VOY2EeuQw7snH5HgVg" labelSize="12" labelPosition="node" color="255,245,181">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_pZEvMeY2EeuQw7snH5HgVg" name="Seminterrato">
+      <target xmi:type="hb:Floor" href="hbinstance.xmi#//@floors.1"/>
+      <semanticElements xmi:type="hb:Floor" href="hbinstance.xmi#//@floors.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_pZEvMuY2EeuQw7snH5HgVg" labelSize="12" borderSize="1" borderSizeComputationExpression="1" backgroundColor="238,201,142">
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_pZF9VuY2EeuQw7snH5HgVg" name="Garage principale" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="hb:Room" href="hbinstance.xmi#//@floors.1/@spaces.0"/>
+        <semanticElements xmi:type="hb:Room" href="hbinstance.xmi#//@floors.1/@spaces.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" uid="_pZF9V-Y2EeuQw7snH5HgVg" labelSize="12" labelPosition="node" color="255,245,181">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_pZDhEeY2EeuQw7snH5HgVg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/sirius.example/description/example.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer"/>
+    <target xmi:type="hb:House" href="hbinstance.xmi#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
