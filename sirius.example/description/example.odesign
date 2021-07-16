@@ -8,10 +8,10 @@
           <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_yellow']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
           </style>
         </nodeMappings>
-        <edgeMappings name="passage - room" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']" targetFinderExpression="feature:spaceB" sourceFinderExpression="feature:spaceA" domainClass="hb::Passage" useDomainElement="true">
+        <edgeMappings name="Passage" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='Floor']/@subNodeMappings[name='Space']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='Floor']/@subNodeMappings[name='Space']" targetFinderExpression="feature:spaceB" sourceFinderExpression="feature:spaceA" domainClass="hb::Passage" useDomainElement="true">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
             <centerLabelStyleDescription labelSize="12">
@@ -19,7 +19,7 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="entrance - room" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@nodeMappings[name='Entrance']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='room']" targetFinderExpression="feature:space">
+        <edgeMappings name="Entrance-Space" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@nodeMappings[name='Entrance']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='Floor']/@subNodeMappings[name='Space']" targetFinderExpression="feature:space">
           <style sizeComputationExpression="2">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
             <centerLabelStyleDescription labelSize="12">
@@ -27,20 +27,22 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <containerMappings name="floor" domainClass="hb::Floor">
-          <subNodeMappings name="externalSpace" semanticCandidatesExpression="feature:eAllContents" domainClass="hb::ExternalSpace">
-            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
-              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
-            </style>
-          </subNodeMappings>
-          <subNodeMappings name="room" semanticCandidatesExpression="feature:eAllContents" domainClass="hb::Room">
-            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
-              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_yellow']"/>
-            </style>
+        <containerMappings name="Floor" domainClass="hb::Floor">
+          <subNodeMappings name="Space" semanticCandidatesExpression="feature:eAllContents" domainClass="hb::Space">
+            <conditionnalStyles predicateExpression="aql:self.oclIsTypeOf(hb::Room)">
+              <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_yellow']"/>
+              </style>
+            </conditionnalStyles>
+            <conditionnalStyles predicateExpression="aql:self.oclIsTypeOf(hb::ExternalSpace)">
+              <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              </style>
+            </conditionnalStyles>
           </subNodeMappings>
           <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -49,29 +51,66 @@
           </style>
         </containerMappings>
         <toolSections>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateRoom" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='externalSpace']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createRoom" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='Floor']/@subNodeMappings[name='Space']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
-              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="hb::Room" referenceName="spaces" variableName="roomInstance">
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="hb::Room" referenceName="spaces">
                 <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="Nuova stanza"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateExternalSpace" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']/@subNodeMappings[name='externalSpace']">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createExternalSpace" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='Floor']/@subNodeMappings[name='Space']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
-              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="hb::ExternalSpace" referenceName="spaces" variableName="externalSpaceInstance">
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="hb::ExternalSpace" referenceName="spaces">
                 <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="Nuovo spazio esterno"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:ContainerCreationDescription" name="CreateFloor" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='floor']">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="createFloor" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@containerMappings[name='Floor']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
-              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="hb::Floor" referenceName="floors"/>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="hb::Floor" referenceName="floors">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="Nuovo piano"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name=" createPassage" edgeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@edgeMappings[name='Passage']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:source.floor.house">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="hb::Passage" referenceName="passages">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="spaceA" valueExpression="var:source"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="spaceB" valueExpression="var:target"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="Nuovo passaggio"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createEntrance" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@nodeMappings[name='Entrance']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="hb::Entrance" referenceName="entrances">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="Nuova entrata"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="createEntranceSpaceRelation" edgeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='siriushb2']/@defaultLayer/@edgeMappings[name='Entrance-Space']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="space" valueExpression="var:target"/>
+              </firstModelOperations>
             </initialOperation>
           </ownedTools>
         </toolSections>
