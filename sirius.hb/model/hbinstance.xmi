@@ -5,10 +5,10 @@
       <devices name="Smart TV" type="APPLIANCE" model="Samsung Q85T 55"/>
       <devices name="Telefono di casa" type="SOCKET" model="Telecom"/>
     </spaces>
-    <spaces xsi:type="hb:Room" name="Cucina" length="4.3" width="3.6" sensors="//@controllers.0/@sensors.1 //@controllers.0/@sensors.2" passagesA="//@passages.0" passagesB="//@passages.8 //@passages.13" height="2.8" roomType="KITCHEN">
+    <spaces xsi:type="hb:Room" name="Cucina" length="4.3" width="3.6" sensors="//@controllers.0/@sensors.1 //@controllers.0/@sensors.2" passagesA="//@passages.0" passagesB="//@passages.8" height="2.8" roomType="KITCHEN">
       <devices name="Lavastoviglie smart" type="APPLIANCE" model="Hotpoint Ariston "/>
     </spaces>
-    <spaces xsi:type="hb:Room" name="Corridoio" length="4.0" width="1.2" sensors="//@controllers.0/@sensors.0" passagesA="//@passages.2 //@passages.3 //@passages.4 //@passages.5 //@passages.6 //@passages.7 //@passages.13" height="3.0" roomType="HALLWAY">
+    <spaces xsi:type="hb:Room" name="Corridoio" length="4.0" width="1.2" sensors="//@controllers.0/@sensors.0" passagesA="//@passages.2 //@passages.3 //@passages.4 //@passages.5 //@passages.6 //@passages.7" height="3.0" roomType="HALLWAY">
       <devices name="Termostato principale" model="Thermocare"/>
     </spaces>
     <spaces xsi:type="hb:Room" name="Cameretta piccola" length="4.0" width="3.0" passagesA="//@passages.9" passagesB="//@passages.5" height="2.2" roomType="BEDROOM"/>
@@ -45,7 +45,6 @@
   <passages name="Porta-finestra della cameretta grande" doorType="DOOR_WINDOW" width="1.2" height="2.2" spaceA="//@floors.0/@spaces.4" spaceB="//@floors.0/@spaces.11"/>
   <passages name="Porta-finestra del balcone piccolo" doorType="DOOR_WINDOW" width="0.7" height="2.2" spaceA="//@floors.0/@spaces.5" spaceB="//@floors.0/@spaces.10"/>
   <passages name="Porta del ripostiglio esterno" width="0.7" height="2.6" spaceA="//@floors.0/@spaces.9" spaceB="//@floors.0/@spaces.8"/>
-  <passages name="Corridoio-cucina" width="0.7" height="2.2" spaceA="//@floors.0/@spaces.2" spaceB="//@floors.0/@spaces.1"/>
   <controllers name="Controller principale" model="Raspberry CR4" os="Raspberry Pi OS" osVersion="1.6">
     <sensors name="Temperatura della casa" space="//@floors.0/@spaces.2"/>
     <sensors name="Allerta fughe di gas" type="GAS" space="//@floors.0/@spaces.1"/>
