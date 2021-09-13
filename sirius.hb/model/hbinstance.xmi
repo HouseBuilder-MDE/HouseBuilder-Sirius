@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<hb:House xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hb="http://www.example.org/hb" xsi:schemaLocation="http://www.example.org/hb /sirius.hb/model/hb.ecore" name="Stanza">
+<hb:House xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hb="http://www.example.org/hb" name="Nuova scala">
   <floors name="Terzo piano" level="3">
     <spaces xsi:type="hb:Room" name="Salotto" length="5.2" width="5.0" passagesA="//@passages.1 //@passages.8" passagesB="//@passages.2" entrances="//@entrances.0" height="2.8" roomType="LIVING_ROOM">
       <devices name="Smart TV" type="APPLIANCE" model="Samsung Q85T 55"/>
       <devices name="Telefono di casa" type="SOCKET" model="Telecom"/>
     </spaces>
-    <spaces xsi:type="hb:Room" name="Cucina" length="4.3" width="3.6" sensors="//@controllers.0/@sensors.1 //@controllers.0/@sensors.2" passagesA="//@passages.0" passagesB="//@passages.8" height="2.8" roomType="KITCHEN">
+    <spaces xsi:type="hb:Room" name="Cucina" length="4.3" width="3.6" sensors="//@controllers.0/@sensors.1 //@controllers.0/@sensors.2" passagesA="//@passages.0" passagesB="//@passages.8 //@passages.13" height="2.8" roomType="KITCHEN">
       <devices name="Lavastoviglie smart" type="APPLIANCE" model="Hotpoint Ariston "/>
     </spaces>
     <spaces xsi:type="hb:Room" name="Corridoio" length="4.0" width="1.2" sensors="//@controllers.0/@sensors.0" passagesA="//@passages.2 //@passages.3 //@passages.4 //@passages.5 //@passages.6 //@passages.7" height="3.0" roomType="HALLWAY">
@@ -30,7 +30,7 @@
     <spaces xsi:type="hb:ExternalSpace" name="Balcone delle camerette" length="1.4" width="6.4" passagesB="//@passages.9 //@passages.10" ground="PAVING"/>
   </floors>
   <floors name="Seminterrato" level="-1">
-    <spaces xsi:type="hb:Room" name="Garage principale" length="5.6" width="6.0" height="3.5" roomType="GARAGE"/>
+    <spaces xsi:type="hb:Room" name="Garage principale" length="5.6" width="6.0" passagesA="//@passages.13" height="3.5" roomType="GARAGE"/>
   </floors>
   <passages name="Porta-finestra della cucina" doorType="DOOR_WINDOW" width="1.2" height="2.2" spaceA="//@floors.0/@spaces.1" spaceB="//@floors.0/@spaces.9"/>
   <passages name="Porta-finestra del salotto" doorType="DOOR_WINDOW" width="1.8" height="2.2" spaceA="//@floors.0/@spaces.0" spaceB="//@floors.0/@spaces.9"/>
@@ -45,6 +45,7 @@
   <passages name="Porta-finestra della cameretta grande" doorType="DOOR_WINDOW" width="1.2" height="2.2" spaceA="//@floors.0/@spaces.4" spaceB="//@floors.0/@spaces.11"/>
   <passages name="Porta-finestra del balcone piccolo" doorType="DOOR_WINDOW" width="0.7" height="2.2" spaceA="//@floors.0/@spaces.5" spaceB="//@floors.0/@spaces.10"/>
   <passages name="Porta del ripostiglio esterno" width="0.7" height="2.6" spaceA="//@floors.0/@spaces.9" spaceB="//@floors.0/@spaces.8"/>
+  <passages xsi:type="hb:Stair" name="Nuova scala" spaceA="//@floors.1/@spaces.0" spaceB="//@floors.0/@spaces.1"/>
   <controllers name="Controller principale" model="Raspberry CR4" os="Raspberry Pi OS" osVersion="1.6">
     <sensors name="Temperatura della casa" space="//@floors.0/@spaces.2"/>
     <sensors name="Allerta fughe di gas" type="GAS" space="//@floors.0/@spaces.1"/>

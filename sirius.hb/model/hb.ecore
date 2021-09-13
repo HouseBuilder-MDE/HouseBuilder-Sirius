@@ -152,6 +152,14 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="house" lowerBound="1" eType="#//House"
         eOpposite="#//House/passages"/>
   </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Stair" eSuperTypes="#//Passage">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="StairConstraint"/>
+    </eAnnotations>
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+      <details key="StairConstraint" value="Tuple {&#xA;&#x9;message : String = 'Stairs can be inserted only between spaces of different floors',&#xA;&#x9;status : Boolean = &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;self.spaceA.floor.level&lt;>self.spaceB.floor.level&#xA;}.status"/>
+    </eAnnotations>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EEnum" name="RoomType">
     <eLiterals name="SIMPLE"/>
     <eLiterals name="BATHROOM" value="1"/>
